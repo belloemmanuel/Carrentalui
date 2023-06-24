@@ -256,18 +256,7 @@ body > div > div.subheader > div > ul:nth-child(1){
     span{
        color: #FFC977;
     }
-    
-    .subheader{
-        border-radius: 25px;
-        margin-top: -10em;
-        display: flex;
-        justify-content: center;
-        width: 100%;
-        background: rgb(55,42,34);
-        background: linear-gradient(135deg, rgba(55,42,34,1) 0%, rgba(99,81,69,1) 100%);
-        z-index: -1px;
-    }
-    
+
     .book-btn{
         display: flex;
         flex-direction: column;
@@ -279,6 +268,14 @@ body > div > div.subheader > div > ul:nth-child(1){
         gap: 15px;
     }
     
+    .subheader{
+        margin-top: -10em;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        background: none;
+        z-index: -1px;
+    }
     
     .subheader-nav{
         margin-bottom: 30px;
