@@ -1,0 +1,302 @@
+@import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+body{
+    background-color: #111111;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+p,h3{
+    color: #B9ADA7;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+}
+
+a{
+    color:#A6A6A6;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+}
+   
+h1{
+    color: beige;
+    font-family: 'Prata', serif;
+    font-size: 4em;
+    letter-spacing: 2px;
+}
+
+h2{
+    color: beige;
+    font-family: 'Prata', serif;
+    font-size: 30px;
+    letter-spacing: 2px;
+}
+
+.desktop-nav{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.header-nav-ul{
+    display: flex;
+    list-style: none;
+    padding-top:5px
+}
+.nav-item a{
+    text-decoration: none;
+    padding: 30px;
+}
+
+.hero-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: rgb(99,81,69);
+    background: linear-gradient(135deg, rgba(99,81,69,1) 0%, rgba(55,42,34,1) 100%);
+    border-radius: 25px;
+    width: 100%;
+    position: relative;
+}
+
+.herocontent{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 80px;
+    width: 100%;
+}
+
+.herotext{
+   width: 30em;
+}
+
+.cardiv{
+    display: flex;
+    justify-content: center;
+    z-index: 10;
+}
+
+.btn{
+    background-color: #FFC977;
+    border: 0px;
+    border-radius: 10px;
+    padding: 10px 20px 10px 20px;
+    margin-top: 40px;
+}
+
+.btn p{
+    color: #111111;
+    font-weight: 300px;
+}
+
+span{
+   color: #FFC977;
+}
+
+.subheader{
+    border-radius: 25px;
+    margin-top: -10em;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background: rgb(55,42,34);
+    background: linear-gradient(135deg, rgba(55,42,34,1) 0%, rgba(99,81,69,1) 100%);
+    z-index: -1px;
+}
+
+.book-btn{
+    display: flex;
+    flex-direction: column;
+    background-color: #FFC977;
+    padding: 15px 35px 15px 35px;
+    border-radius: 10px;
+    margin: 10px;
+    text-align: center;
+    gap: 15px;
+}
+
+
+.subheader-nav{
+    margin-bottom: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10em;
+    /* From https://css.glass */
+background: rgba(120, 100, 89, 0.34);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(9px);
+-webkit-backdrop-filter: blur(9px);
+border: 1px solid rgba(198, 184, 177, 0.44);
+    width: 90%;
+}
+
+.subheader-item{
+    margin-left: 0px;
+    border-left: 2px solid  rgba(198, 184, 177, 0.44);
+    padding-left: 50px;
+}
+
+.subheader-item{
+    font-family: 'Poppins', sans-serif;
+    color: #FAEFE8;
+}
+
+
+body > div > div.subheader > div > ul:nth-child(1){
+    border-left: 0px;
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 768px) {
+    body{
+        background-color: #111111;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+   
+    h1{
+        color: beige;
+        font-family: 'Prata', serif;
+        font-size: 2em;
+        letter-spacing: 2px;
+        text-align: center;
+    }
+    
+    h2{
+        color: beige;
+        font-family: 'Prata', serif;
+        font-size: 30px;
+        letter-spacing: 2px;
+        text-align: center;
+    }
+    
+    .desktop-nav{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        display: none;
+    }
+    
+    .hero-section{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background: rgb(99,81,69);
+        background: linear-gradient(135deg, rgba(99,81,69,1) 0%, rgba(55,42,34,1) 100%);
+        border-radius: 25px;
+        width: 100%;
+        position: relative;
+    }
+    
+    .herocontent{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        width: 100%;
+        text-align: center;
+    }
+    
+    .herotext{
+       width: 30em;
+    }
+    
+    .cardiv{
+        display: flex;
+        justify-content: center;
+        z-index: 10;
+    }
+    
+    .btn{
+        background-color: #FFC977;
+        border-radius: 10px;
+        padding: 10px 20px 10px 20px;
+        margin-top: 20px;
+        margin-bottom: 40px;
+    }
+    
+    .btn p{
+        color: #111111;
+        font-weight: 300px;
+    }
+    
+    span{
+       color: #FFC977;
+    }
+    
+    .subheader{
+        border-radius: 25px;
+        margin-top: -10em;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        background: rgb(55,42,34);
+        background: linear-gradient(135deg, rgba(55,42,34,1) 0%, rgba(99,81,69,1) 100%);
+        z-index: -1px;
+    }
+    
+    .book-btn{
+        display: flex;
+        flex-direction: column;
+        background-color: #FFC977;
+        padding: 15px 35px 15px 35px;
+        border-radius: 10px;
+        margin: 10px;
+        text-align: center;
+        gap: 15px;
+    }
+    
+    
+    .subheader-nav{
+        margin-bottom: 30px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 10em;
+        background: rgba(120, 100, 89, 0.34);
+        border-radius: 16px;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(9px);
+        -webkit-backdrop-filter: blur(9px);
+        border: 1px solid rgba(198, 184, 177, 0.44);
+        width: 90%;
+    }
+    
+    .subheader-item{
+        margin-left: 0px;
+        border-left: 2px solid  rgba(198, 184, 177, 0.44);
+        padding-left: 50px;
+    }
+    
+    .subheader-item{
+        font-family: 'Poppins', sans-serif;
+        color: #FAEFE8;
+    }
+    
+    
+    body > div > div.subheader > div > ul:nth-child(1){
+        border-left: 0px;
+    }
+}
