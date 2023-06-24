@@ -58,6 +58,18 @@ h2{
     text-decoration: none;
     padding: 30px;
 }
+select{
+    border-radius: 5px;
+    outline: none;
+    padding: 10px;
+    background: rgba(120, 100, 89, 0.34);
+    border-radius: 5px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(9px);
+    -webkit-backdrop-filter: blur(9px);
+    border: 1px solid rgba(198, 184, 177, 0.44);
+    color: #FAEFE8;
+}
 
 .hero-section{
     display: flex;
@@ -135,13 +147,12 @@ span{
     justify-content: space-between;
     align-items: center;
     margin-top: 10em;
-    /* From https://css.glass */
-background: rgba(120, 100, 89, 0.34);
-border-radius: 16px;
-box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-backdrop-filter: blur(9px);
--webkit-backdrop-filter: blur(9px);
-border: 1px solid rgba(198, 184, 177, 0.44);
+    background: rgba(120, 100, 89, 0.34);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(9px);
+    -webkit-backdrop-filter: blur(9px);
+    border: 1px solid rgba(198, 184, 177, 0.44);
     width: 90%;
 }
 
@@ -219,7 +230,8 @@ body > div > div.subheader > div > ul:nth-child(1){
     }
     
     .herotext{
-       width: 30em;
+       width: 20em;
+       margin-top: 10px;
     }
     
     .cardiv{
@@ -271,8 +283,7 @@ body > div > div.subheader > div > ul:nth-child(1){
     .subheader-nav{
         margin-bottom: 30px;
         display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
+        flex-direction: column;
         align-items: center;
         margin-top: 10em;
         background: rgba(120, 100, 89, 0.34);
@@ -285,14 +296,16 @@ body > div > div.subheader > div > ul:nth-child(1){
     }
     
     .subheader-item{
-        margin-left: 0px;
-        border-left: 2px solid  rgba(198, 184, 177, 0.44);
-        padding-left: 50px;
+        margin-bottom: 10px;
+        border-left: 0px solid  rgba(198, 184, 177, 0.44);
+        padding-left: 0px;
+        text-align: center;
     }
     
     .subheader-item{
         font-family: 'Poppins', sans-serif;
         color: #FAEFE8;
+        margin-top: 20px;
     }
     
     
