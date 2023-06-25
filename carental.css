@@ -42,7 +42,7 @@ h2{
 }
 
 h3{
-    color: beige;
+    color: white;
     font-family: 'Poppins', sans-serif;
     font-size: 16px;
     letter-spacing: 1px;
@@ -252,6 +252,24 @@ margin-top: 9.5em;
     color: white;
 }
 
+.our-stories{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 7%;
+    justify-content: space-between;
+}
+
+.our-stories-content1{
+    width: 40%;
+}
+
+.our-stories-content1 h2{
+    margin-bottom: 20px;
+}
+.our-stories-content2{
+    width: 40%;
+}
+
 @media only screen and (max-width: 768px) {
     body{
         background-color: #111111;
@@ -442,7 +460,10 @@ margin-top: 9.5em;
 .first-feature{
     width: 80%;
     margin-right: 50px;
-    margin-bottom: 10px;
+}
+
+.first-feature p{
+    margin-bottom: 30px;
 }
 
 .feature-container{
@@ -455,7 +476,7 @@ margin-top: 9.5em;
 
 .features-icon{
     display: flex;
-    padding-bottom: 20px;
+    padding-bottom: 0px;
 }
 
 .features-icon i{
@@ -463,4 +484,27 @@ margin-top: 9.5em;
     color: white;
 }
     
+.our-stories{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 7%;
+    justify-content: space-between;
+}
+
+.our-stories-content1{
+    width: 100%;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.our-stories-content1 h2{
+    margin-bottom: 20px;
+}
+.our-stories-content2{
+    width: 100%;
+    margin-top: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
 }
