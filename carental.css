@@ -270,6 +270,11 @@ margin-top: 9.5em;
     width: 40%;
 }
 
+.our-stories-container{
+    display: flex;
+    justify-content: space-between;
+}
+
 @media only screen and (max-width: 768px) {
     body{
         background-color: #111111;
@@ -505,6 +510,11 @@ margin-top: 9.5em;
     margin-top: 20px;
     margin-left: 5px;
     margin-right: 5px;
+}
+
+.our-stories-container{
+    display: flex;
+    flex-direction: column;
 }
 
 }
