@@ -323,7 +323,7 @@ margin-top: 9.5em;
     flex-direction: column;
     justify-content: space-between;
     background-color: #38302E;
-    padding: 100px;
+    padding: 100px 100px 0px 100px;
     border-radius: 25px;
 }
 
@@ -395,7 +395,38 @@ gap: 25px;
     border-radius: 5px;
 }
 
+.openall-btn{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
 
+.yournext-travel{
+    display: flex;
+    position: relative;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 50px 100px 130px 100px;
+    border-radius: 25px;
+    margin-top: 40px;
+    background: rgb(99,81,69);
+    background: linear-gradient(135deg, rgba(99,81,69,1) 0%, rgba(55,42,34,1) 100%);
+}
+
+.yournext-travel-text{
+    width: 40%;
+}
+
+.younexttravel-img{
+    width: 60%;
+}
+
+.younexttravel-img img{
+    width: 50%;
+    z-index: 9999;
+    position: absolute;
+    margin-top: -85px;
+}
 
 @media only screen and (max-width: 768px) {
     body{
@@ -417,7 +448,6 @@ gap: 25px;
         font-family: 'Prata', serif;
         font-size: 50px;
         letter-spacing: 2px;
-        text-align: center;
     }
     
     .desktop-nav{
@@ -565,12 +595,12 @@ gap: 25px;
         display: flex;
         flex-direction: column;
         gap: 15px;
-        }
+    }
+
     .row3-image-container img{
         width: 100%;
     }
 
-    
 .features{
     display: flex;
     flex-wrap: wrap;
@@ -690,7 +720,7 @@ gap: 25px;
     justify-content: center;
     background-color: #38302E;
     padding: 0px;
-    padding-bottom: 50px;
+    padding-bottom: 20px;
     border-radius: 25px;
 }
 
@@ -763,6 +793,50 @@ gap: 25px;
     background-color: #635856;
     margin-right: 10px;
     border-radius: 5px;
+}
+
+.openall-btn{
+    display: flex;
+    margin-bottom: 0px;
+    justify-content: start;
+    margin-left: 30px;
+}
+
+.yournext-travel{
+    display: flex;
+    position: relative;
+    flex-wrap: wrap;
+    padding: 50px 10px 230px 10px;
+    border-radius: 25px;
+    margin-top: 20px;
+    background: rgb(99,81,69);
+    background: linear-gradient(135deg, rgba(99,81,69,1) 0%, rgba(55,42,34,1) 100%);
+}
+
+.yournext-travel-text{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 20px;
+}
+
+.yournext-travel-text p{
+    width: 100%;
+}
+
+.yournext-travel-text .btn{
+width: 40%;
+}
+
+.younexttravel-img{
+    width: 60%;
+}
+
+.younexttravel-img img{
+    width: 89%;
+    z-index: 9999;
+    position: absolute;
+    margin-top: -5px;
 }
 
 }
