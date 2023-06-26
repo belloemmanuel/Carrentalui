@@ -574,8 +574,7 @@ gap: 25px;
     }
     
     .services-row1 p{
-        margin-top: 10px;
-        text-align: center;
+        margin: 20px;
     }
     
     .row1-image-container img{
@@ -825,7 +824,7 @@ gap: 25px;
 }
 
 .yournext-travel-text .btn{
-width: 40%;
+width: 50%;
 }
 
 .younexttravel-img{
