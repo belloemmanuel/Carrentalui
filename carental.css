@@ -318,6 +318,85 @@ margin-top: 9.5em;
     text-align: center;
 }
 
+.our-fleet{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #38302E;
+    padding: 100px;
+    border-radius: 25px;
+}
+
+.our-fleet-header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.our-fleet-text{
+    width: 50%;
+}
+
+.our-fleet-text p{
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.our-fleet-list ul{
+    color: white;
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 100px;
+}
+
+.our-fleet-list a{
+    padding: 10px 20px 10px 20px;
+    border-radius: 5px;
+}
+
+.our-fleet-list a:hover{
+    background-color: #FFC977;
+    color: #111111;
+}
+
+.our-fleet-images{
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+gap: 25px;
+}
+
+.image-column1{
+    width: 32%;
+}
+
+.image-column1 img{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.fleet-btns{
+    display: flex;
+    margin-top: 15px;
+}
+
+.fleet-btn i{
+    color: white;
+    margin-right: 10px;
+}
+
+.fleet-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 10px 5px 10px;
+    background-color: #635856;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+
+
+
 @media only screen and (max-width: 768px) {
     body{
         background-color: #111111;
@@ -605,5 +684,85 @@ margin-top: 9.5em;
     text-align: center;
 }
 
+.our-fleet{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #38302E;
+    padding: 0px;
+    padding-bottom: 50px;
+    border-radius: 25px;
+}
+
+.our-fleet-header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.our-fleet-text{
+    width: 80%;
+}
+
+.our-fleet-list{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.our-fleet-list ul{
+    color: white;
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+    margin-top: -10px;
+    margin-bottom: 40px;
+}
+
+.our-fleet-list a{
+    padding: 12px;
+    border-radius: 5px;
+}
+
+.our-fleet-list a:hover{
+    background-color: #FFC977;
+    color: #111111;
+}
+
+.our-fleet-images{
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+gap: 25px;
+}
+
+.image-column1{
+    width: 80%;
+}
+
+.image-column1 img{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.fleet-btns{
+    display: flex;
+    margin-top: 15px;
+}
+
+.fleet-btn i{
+    color: white;
+    margin-right: 10px;
+}
+
+.fleet-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 10px 5px 10px;
+    background-color: #635856;
+    margin-right: 10px;
+    border-radius: 5px;
+}
 
 }
