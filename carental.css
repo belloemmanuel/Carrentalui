@@ -134,6 +134,18 @@ span{
     z-index: -1px;
 }
 
+.subheader-item li input{
+    background-color: transparent;
+    width: 100%;
+    border: none;
+    color: white;
+    outline: none;
+}
+
+#address{
+    width: 14em;
+}
+
 .book-btn{
     display: flex;
     flex-direction: column;
