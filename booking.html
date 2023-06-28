@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking</title>
+    <link rel="stylesheet" href="booking.css">
+    <link rel="stylesheet" href="carental.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav class="desktop-nav">
+            <div class="logo">
+                <h2 style="font-size:30px;">TCC</h2>
+            </div>
+            <ul class="header-nav-ul">
+                <li class="nav-item"><a href="#">Home</a></li>
+                <li class="nav-item"><a href="#">About Us</a></li>
+                <li class="nav-item"><a href="#">Our Services</a></li>
+                <li class="nav-item"><a href="#">Booking</a></li>
+            </ul>
+            <div class="lang-container">
+                <select name="language" id="language">
+                    <option value="ENG">ENG</option>
+                    <option value="FRN">FRN</option>
+                  </select>
+            </div>
+        </nav> 
+    </header>
+    <div class="our-fleet">
+        <div class="our-fleet-booking">
+            <div class="image-column1">
+                <img src="images/7.png">
+                <p>Mercedes Benz S Class</p>
+                <div class="fleet-btns">
+                    <div class="fleet-btn">
+                        <i class="fa-solid fa-users"></i>
+                        <p>2</p>
+                    </div>
+                    <div class="fleet-btn">
+                        <i class="fa-sharp fa-solid fa-suitcase"></i>
+                        <p>2</p>
+                    </div>
+                </div>
+            </div>
+            <div class="booking">
+                <div class="booking-col">
+                    <ul class="subheader-item-booking">
+                        <p>Pick Up Address</p>
+                        <li><input type="text" id="pickupaddress" name="address" placeholder=""></li>
+                    </ul>
+                    <ul class="subheader-item-booking">
+                        <p>Drop Off Address</p>
+                        <li><input type="text" id="dropoffaddress" name="address" placeholder=""></li>
+                    </ul>
+                    <ul class="subheader-item-booking">
+                        <p>Pick Up Date</p>
+                        <li><input type="date" id="date" name="date" placeholder=""></li>
+                    </ul>
+                    <ul class="subheader-item-booking">
+                        <p>Pick Up Time</p>
+                        <li><input type="time" id="time" name="time" placeholder=""></li>
+                    </ul>
+                    <ul class="subheader-item-booking">
+                        <li><button class="btn" style="width: 100%; padding: 20px;">Book Now</button></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>  
+</body>
+</html>
