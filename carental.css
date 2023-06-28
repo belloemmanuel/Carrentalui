@@ -114,6 +114,31 @@ select{
     margin-top: 40px;
 }
 
+.btn:hover{
+    background-color: #d0b792;
+    border: 0px;
+    border-radius: 10px;
+    padding: 10px 20px 10px 20px;
+    margin-top: 40px;
+    cursor: pointer;
+}
+
+.btnorder{
+    background-color: #FFC977;
+    border: 0px;
+    border-radius: 10px;
+    padding: 10px 20px 10px 20px;
+}
+
+
+.btnorder:hover{
+    background-color: #d0b792;
+    border: 0px;
+    border-radius: 10px;
+    padding: 10px 20px 10px 20px;
+    cursor: pointer;
+}
+
 .btn p{
     color: #111111;
     font-weight: 300px;
@@ -600,6 +625,7 @@ gap: 25px;
         margin-top: 20px;
         margin-bottom: 40px;
     }
+    
     
     .btn p{
         color: #111111;
