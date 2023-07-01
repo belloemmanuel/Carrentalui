@@ -64,50 +64,40 @@ h3{
     text-decoration: none;
     padding: 30px;
 }
-select{
-    border-radius: 5px;
-    outline: none;
-    padding: 10px;
-    background: rgba(120, 100, 89, 0.34);
-    border-radius: 5px;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(9px);
-    -webkit-backdrop-filter: blur(9px);
-    border: 1px solid rgba(198, 184, 177, 0.44);
-    color: #FAEFE8;
-}
 
-.hero-section{
-    display: flex;
-    flex-direction: column;
+.banner{
+    display: flex; 
     justify-content: center;
+    margin-top: 0px;
     background: rgb(99,81,69);
     background: linear-gradient(135deg, rgba(99,81,69,1) 0%, rgba(55,42,34,1) 100%);
+    padding: 50px;
     border-radius: 25px;
-    width: 100%;
-    position: relative;
+    margin-bottom: 20px;
 }
 
-.herocontent{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    margin-top: 80px;
-    width: 100%;
+.banner h1{
+    color: white;
 }
 
 .our-fleet-booking{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 25px;
-    }
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+background-color: white;
+border-radius: 25px;
+padding-top: 30px;
+padding-bottom: 25px;
+}
 
 .booking{
+    padding-top: 90px;
+    padding-bottom: 80px;
+    width: 100%;
     display: flex;
-    width: auto;
     justify-content: center;
-    padding-bottom: 100px;
+    flex-wrap: wrap;
+    gap: 20px;
 }
 
 .booking ul{
@@ -115,65 +105,72 @@ select{
 }
 
 .booking ul input{
-    background-color: #978479;
     padding: 15px;
     border-radius: 5px;
     width: 30em;
-    border: none;
+    border: 1px solid rgb(210, 208, 208);
     outline: none;
     margin-bottom: 10px;
+    background-color: white;
  }
 
 
  
  @media only screen and (max-width: 768px) {
 
-
-.hero-section{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background: rgb(99,81,69);
-    background: linear-gradient(135deg, rgba(99,81,69,1) 0%, rgba(55,42,34,1) 100%);
-    border-radius: 25px;
-    width: 100%;
-    position: relative;
-}
-
-.herocontent{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    margin-top: 80px;
-    width: 100%;
-}
-
-.our-fleet-booking{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 25px;
+    .banner{
+        display: flex; 
+        justify-content: center;
+        margin-top: 0px;
+        background: rgb(99,81,69);
+        background: linear-gradient(135deg, rgba(99,81,69,1) 0%, rgba(55,42,34,1) 100%);
+        padding: 50px;
+        border-radius: 25px;
+        margin-bottom: 20px;
     }
-
-.booking{
+    
+    .banner h1{
+        color: white;
+    }
+    
+    .our-fleet-booking{
     display: flex;
-    width: auto;
+    flex-wrap: wrap;
     justify-content: center;
-    padding-bottom: 100px;
-}
+    background-color: white;
+    border-radius: 25px;
+    padding: 0px !important;
+    }
+    
+    .booking{
+        padding-top: 90px;
+        padding-bottom: 20px;
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    
+    .booking ul{
+        padding: 0px;
+    }
+    
+    .booking ul input{
+        padding: 15px;
+        border-radius: 5px;
+        width: 100%;
+        border: 1px solid rgb(210, 208, 208);
+        outline: none;
+        margin-bottom: 10px;
+        background-color: white;
+     }
 
-.booking ul{
-    padding: 0px;
-}
-
-.booking ul input{
-    background-color: #978479;
-    padding: 15px;
-    border-radius: 5px;
-    width: 25em;
-    border: none;
-    outline: none;
-    margin-bottom: 10px;
- }
+     .booking-col{
+        padding: 0px !important;
+        width: 80%;
+     }
+    
  }

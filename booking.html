@@ -6,7 +6,10 @@
     <title>Booking</title>
     <link rel="stylesheet" href="booking.css">
     <link rel="stylesheet" href="carental.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">     
+    <link rel="stylesheet" href="fonts/icomoon/style.css">
+    <link rel="stylesheet" href="calendar/css/classic.css">
+    <link rel="stylesheet" href="calendar/css/classic.date.css">
 </head>
 <body>
     <header>
@@ -28,24 +31,18 @@
             </div>
         </nav> 
     </header>
-    <div class="our-fleet">
+    <div>
+        <div class="banner">
+            <h1>Booking</h1>
+        </div>
+    </div>
         <div class="our-fleet-booking">
-            <div class="image-column1">
-                <img src="images/7.png">
-                <p>Mercedes Benz S Class</p>
-                <div class="fleet-btns">
-                    <div class="fleet-btn">
-                        <i class="fa-solid fa-users"></i>
-                        <p>2</p>
-                    </div>
-                    <div class="fleet-btn">
-                        <i class="fa-sharp fa-solid fa-suitcase"></i>
-                        <p>2</p>
-                    </div>
-                </div>
-            </div>
             <div class="booking">
                 <div class="booking-col">
+                    <ul class="subheader-item-booking">
+                        <p>Selected Car</p>
+                        <li><input type="text" id="pickupaddress" name="address" placeholder=""></li>
+                    </ul>
                     <ul class="subheader-item-booking">
                         <p>Pick Up Address</p>
                         <li><input type="text" id="pickupaddress" name="address" placeholder=""></li>
@@ -54,20 +51,27 @@
                         <p>Drop Off Address</p>
                         <li><input type="text" id="dropoffaddress" name="address" placeholder=""></li>
                     </ul>
+                </div>
+                <div class="booking-col">
                     <ul class="subheader-item-booking">
                         <p>Pick Up Date</p>
-                        <li><input type="date" id="date" name="date" placeholder=""></li>
+                        <li><input type="text" class="" id="pick-date" placeholder=""></li>
                     </ul>
                     <ul class="subheader-item-booking">
                         <p>Pick Up Time</p>
                         <li><input type="time" id="time" name="time" placeholder=""></li>
                     </ul>
                     <ul class="subheader-item-booking">
-                        <li><button class="btn" style="width: 100%; padding: 20px;">Book Now</button></li>
+                        <li><button class="btn">Book Now</button></li>
                     </ul>
                 </div>
             </div>
-        </div>
     </div>  
+    <script src="calendar/js/jquery-3.3.1.min.js"></script>
+    <script src="calendar/js/popper.min.js"></script>
+    <script src="calendar/js/bootstrap.min.js"></script>
+    <script src="calendar/js/picker.js"></script>
+    <script src="calendar/js/picker.date.js"></script>
+    <script src="calendar/js/main.js"></script>
 </body>
 </html>
