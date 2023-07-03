@@ -211,10 +211,6 @@ padding-bottom: 25px;
         position: absolute;
     }
 
-    .timePicker{
-        display: none;
-    }
-
     .banner{
         display: flex; 
         justify-content: center;
