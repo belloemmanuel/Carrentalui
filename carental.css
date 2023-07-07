@@ -418,6 +418,7 @@ gap: 25px;
 .fleet-btns{
     display: flex;
     margin-top: 15px;
+    margin-bottom: 100px;
 }
 
 .fleet-btn i{
@@ -928,6 +929,7 @@ gap: 25px;
 .fleet-btns{
     display: flex;
     margin-top: 15px;
+    margin-bottom: 0px;
 }
 
 .fleet-btn i{
