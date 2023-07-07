@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="booking.css">
+    <link rel="stylesheet" href="carental.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">     
+    <link rel="stylesheet" href="fonts/icomoon/style.css">
+    <link rel="stylesheet" href="calendar/css/classic.css">
+    <link rel="stylesheet" href="calendar/css/classic.date.css">
+</head>
+<body>
+    <header>
+        <nav class="desktop-nav">
+            <div class="logo">
+                <h2 style="font-size:30px;">TCC</h2>
+            </div>
+            <ul class="header-nav-ul">
+                <li class="nav-item"><a href="#">Home</a></li>
+                <li class="nav-item"><a href="#">About Us</a></li>
+                <li class="nav-item"><a href="#">Our Services</a></li>
+                <li class="nav-item"><a href="booking.html">Booking</a></li>
+            </ul>
+            <div class="lang-container">
+                <select name="language" id="language">
+                    <option value="ENG">ENG</option>
+                    <option value="FRN">FRN</option>
+                  </select>
+            </div>
+        </nav> 
+        <div class="mobile-nav">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand" href="#"><h2 style="font-size:30px; margin-bottom: -20px;">TCC</h2></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>   
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                  <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                    <li class="mobile-nav-item">
+                      <a class="nav-link" href="#" style="margin-top: 20px;">Home</a>
+                    </li>
+                    <li class="mobile-nav-item">
+                        <a class="nav-link" href="#">About Us</a>
+                      </li>
+                      <li class="mobile-nav-item">
+                        <a class="nav-link" href="#">Our Services</a>
+                      </li>
+                      <li class="mobile-nav-item">
+                        <a class="nav-link" href="booking.html">Booking</a>
+                      </li>
+                  </ul>
+                  <div class="lang-container" style="margin-left: 20px;margin-bottom: 20px;">
+                    <select name="language" id="language">
+                        <option value="ENG">ENG</option>
+                        <option value="FRN">FRN</option>
+                      </select>
+                </div>
+                </div>
+              </nav>
+        </div>
+    </header>
+        <div class="banner">
+            <h1>Select Pickup Date</h1>
+        </div>
+        <div class="our-fleet-booking" style="background-color: white;">
+            <div class="booking">
+                <div class="booking-col">
+                    <ul class="subheader-item-booking">
+                        <li><input type="text" class="" id="pick-date" placeholder="Click Here To Select Date"></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="our-fleet-images">
+                <div class="image-column1">
+                    <img src="images/8.png">
+                    <p>Mercedes Benz V Class</p>
+                    <div class="fleet-btns">
+                        <div class="fleet-btn">
+                            <i class="fa-solid fa-users"></i>
+                            <p>6</p>
+                        </div>
+                        <div class="fleet-btn">
+                            <i class="fa-sharp fa-solid fa-suitcase"></i>
+                            <p>4</p>
+                        </div>
+                        <a href="booking.html"><button class="
+                            btnorder">Book Now</button></a>
+                    </div>
+                </div>
+                <div class="image-column1">
+                    <img src="images/8.png">
+                    <p>Mercedes Benz V Class</p>
+                    <div class="fleet-btns">
+                        <div class="fleet-btn">
+                            <i class="fa-solid fa-users"></i>
+                            <p>6</p>
+                        </div>
+                        <div class="fleet-btn">
+                            <i class="fa-sharp fa-solid fa-suitcase"></i>
+                            <p>4</p>
+                        </div>
+                        <a href="booking.html"><button class="
+                            btnorder">Book Now</button></a>
+                    </div>
+                </div>
+            </div>  
+    </div>  
+    <script src="booking.js"></script>
+    <script src="calendar/js/jquery-3.3.1.min.js"></script>
+    <script src="calendar/js/popper.min.js"></script>
+    <script src="calendar/js/bootstrap.min.js"></script>
+    <script src="calendar/js/picker.js"></script>
+    <script src="calendar/js/picker.date.js"></script>
+    <script src="calendar/js/main.js"></script>
+</body>
+</html>

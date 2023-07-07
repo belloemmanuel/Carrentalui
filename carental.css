@@ -578,6 +578,11 @@ button :focus{
     outline: none !important;
     box-shadow: none;
  }
+
+ .selectdatecar{
+    padding: 0 !important;
+    margin: 0 !important;
+ }
  
 @media only screen and (max-width: 768px) {
     body{
@@ -1109,5 +1114,20 @@ width: 50%;
  .navbar-toggler{
     color: #B9ADA7;
     background-color: white;
+ }
+
+ .selectdatecar{
+    padding: 0 !important;
+    margin: 0 !important;
+ }
+
+ .selectDateCarContainer{
+    display: flex;
+    justify-content: center !important;
+    flex-wrap: wrap !important;
+    width: 80%;
+    padding: 0 !important;
+    margin: 0 !important;
+    height: 100vh;
  }
 }
